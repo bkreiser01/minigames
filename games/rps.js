@@ -1,9 +1,14 @@
-export let play = (player) => {
+import * as helper from './helper.js'
+
+export function play(player) {
     let moves = ['Rock', 'Paper', 'Scissors']
     let response = {}
 
+    helper.validateObject(player)
+
     if (moves.indexOf(player.choice) == -1) {
         response.error = `${player.choice} is not a valid move`;
+        return response
     }
 
     response.player_choice = player.choice

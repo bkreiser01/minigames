@@ -5,9 +5,11 @@
     "main": "app.js",
     "type": "module",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
-    "author": "Brandon Kreiser 10445239",
-    "license": "ISC"
-  }
-  
+    "author": "Brandon Kreiser",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.5.1"
+    }
+}

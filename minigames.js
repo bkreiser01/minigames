@@ -1,5 +1,9 @@
 import * as _rps from './games/rps.js'
+import * as _trivia from './games/trivia.js'
 
-export let rps = (move) => {
-    return _rps.play(move)
+export function rps(query) {
+    return _rps.play(query)
+}
+export async function trivia(query) {
+    return await _trivia.play(query);
 }
