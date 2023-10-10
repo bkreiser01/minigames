@@ -1,0 +1,13 @@
+{
+    "name": "minigames",
+    "version": "1.0.0",
+    "description": "some minigames in javascript",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "author": "Brandon Kreiser 10445239",
+    "license": "ISC"
+  }
+  
